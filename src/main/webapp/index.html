@@ -1,0 +1,18 @@
+<lift:surround with="default" at="content">
+  <h2>Welcome to your project!</h2>
+    <p>
+        <lift:helloWorld.howdy>
+        <span>Welcome to app at <b:time/></span>
+      </lift:helloWorld.howdy>
+    </p>
+    <p>
+             <ul>
+                 <li class="lift:makeLinks:render1"><a id="md1" onclick="#">This link</a> opens a  modal Dialog to /pageview/1 </li>
+                 <li class="lift:makeLinks:render2"><a id="md2" onclick="#">This link</a> opens a  modal Dialog to /pageview/2 </li>
+                 <li class="lift:makeLinks:render3"><a id="md3" onclick="#">This link</a> opens a  modal Dialog to /pageview/3 </li>
+             </ul>
+             <div class="lift:makeLinks:replace1"><div id="replace1"></div></div>
+    <div class="lift:makeLinks:replace2"><div id="replace2"></div></div>
+    </p>
+
+</lift:surround>

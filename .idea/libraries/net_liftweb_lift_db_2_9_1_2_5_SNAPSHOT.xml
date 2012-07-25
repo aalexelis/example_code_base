@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="net.liftweb_lift-db_2.9.1_2.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/local/net.liftweb/lift-db_2.9.1/2.5-SNAPSHOT/jars/lift-db_2.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/local/net.liftweb/lift-db_2.9.1/2.5-SNAPSHOT/docs/lift-db_2.9.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/local/net.liftweb/lift-db_2.9.1/2.5-SNAPSHOT/srcs/lift-db_2.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
