@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.eclipse.jetty_jetty-continuation_8.1.7.v20120910_test">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-8.1.7.v20120910.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.jetty/jetty-continuation/docs/jetty-continuation-8.1.7.v20120910-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.jetty/jetty-continuation/srcs/jetty-continuation-8.1.7.v20120910-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

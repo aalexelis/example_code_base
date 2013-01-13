@@ -1,31 +1,30 @@
-name := "modalDiolog"
+name := "Lift 2.5 starter template"
 
-scalaVersion := "2.9.1"
+version := "0.0.1"
 
-scalacOptions += "-deprecation"
+organization := "net.liftweb"
 
-resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
+scalaVersion := "2.10.0"
 
-libraryDependencies += "net.liftweb" %% "lift-webkit" % "2.5-SNAPSHOT" % "compile"
+resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
+                "releases"        at "http://oss.sonatype.org/content/repositories/releases"
+                )
 
-libraryDependencies += "junit" % "junit" % "4.5" % "test->default"
+seq(com.github.siasia.WebPlugin.webSettings :_*)
 
-libraryDependencies += "javax.servlet" % "servlet-api" % "2.5" % "provided->default"
+unmanagedResourceDirectories in Test <+= (baseDirectory) { _ / "src/main/webapp" }
 
-libraryDependencies += "com.h2database" % "h2" % "1.2.138"
+scalacOptions ++= Seq("-deprecation", "-unchecked")
 
-libraryDependencies += "ch.qos.logback" % "logback-classic" % "0.9.26" % "compile->default"
+libraryDependencies ++= {
+  val liftVersion = "2.5-SNAPSHOT"
+  Seq(
+    "net.liftweb"       %% "lift-webkit"        % liftVersion        % "compile",
+    "net.liftmodules"   %% "lift-jquery-module" % "2.5-SNAPSHOT-2.1-SNAPSHOT",
+    "org.eclipse.jetty" % "jetty-webapp"        % "8.1.7.v20120910"  % "container,test",
+    "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container,test" artifacts Artifact("javax.servlet", "jar", "jar"),
+    "ch.qos.logback"    % "logback-classic"     % "1.0.6",
+    "org.specs2"        %% "specs2"             % "1.13"           % "test"
+  )
+}
 
-libraryDependencies += "net.liftweb" %% "lift-mapper" % "2.5-SNAPSHOT" % "compile"
- 
-libraryDependencies += "com.h2database" % "h2" % "1.2.138"
-
-libraryDependencies += "net.liftweb" %% "lift-wizard" % "2.5-SNAPSHOT" % "compile"
-
-resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
-
-seq(webSettings :_*)
-
-libraryDependencies += "org.mortbay.jetty" % "jetty" % "6.1.26" % "container, test"
-
-libraryDependencies += "org.scala-tools.testing" %% "specs" % "1.6.9" % "test"

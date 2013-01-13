@@ -1,11 +1,10 @@
 package code.snippet
 
 import net.liftweb.util.Helpers._
-import net.liftweb.http.{S, Templates, SHtml}
+import net.liftweb.http.{S, SHtml}
 import net.liftweb.http.js.jquery.JqJsCmds.ModalDialog
-import net.liftweb.http.js.JsCmds._
-import xml.NodeSeq
 import net.liftweb.common.Loggable
+import net.liftweb.http.js.JsCmds.Alert
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,15 +16,14 @@ import net.liftweb.common.Loggable
 
 object MakeLinks extends Loggable {
 
-  def ns = S.runTemplate("page" :: Nil) openOr NodeSeq.Empty
+  def md(pid: Long) = S.runTemplate(
+    "page" :: Nil,
+    "page" -> new Page(PageId(pid.toString)).render).map(ns => ModalDialog(ns)) openOr Alert("Error")
 
-  def render1 = "#md1 [onclick]" #> SHtml.ajaxInvoke( () =>  ModalDialog(temp("1")))
-  def render2 =  "#md2 [onclick]" #> SHtml.ajaxInvoke( () =>  ModalDialog(temp("2")))
-  def render3 =  "#md3 [onclick]" #> SHtml.ajaxInvoke( () =>  ModalDialog(temp("3")))
-  def replace1 = "#replace1" #> temp("1")
-  def replace2 = "#replace2" #> temp("2")
+  def render1 = "#md1 [onclick]" #> SHtml.ajaxInvoke(() => md(1))
 
-  def temp(id: String) = Templates("pageview" :: id :: Nil) open_!
+  def render2 = "#md2 [onclick]" #> SHtml.ajaxInvoke(() => md(2))
+
 
 
 }
