@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="net.liftmodules_lift-jquery-module_2.10_2.5-SNAPSHOT-2.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.liftmodules/lift-jquery-module_2.10/jars/lift-jquery-module_2.10-2.5-SNAPSHOT-2.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.liftmodules/lift-jquery-module_2.10/docs/lift-jquery-module_2.10-2.5-SNAPSHOT-2.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.liftmodules/lift-jquery-module_2.10/srcs/lift-jquery-module_2.10-2.5-SNAPSHOT-2.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
