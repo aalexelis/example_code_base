@@ -5,3 +5,7 @@ project/boot
 project/build/target
 
 target
+
+.idea
+
+.idea_modules
