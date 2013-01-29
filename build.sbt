@@ -7,7 +7,9 @@ organization := "net.liftweb"
 scalaVersion := "2.10.0"
 
 resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
-                "releases"        at "http://oss.sonatype.org/content/repositories/releases"
+                "releases"        at "http://oss.sonatype.org/content/repositories/releases",
+                "Datomic-scala"   at "https://dl.dropbox.com/u/1092243/fbellomi-public/repository/snapshots/",
+                "spy"             at "http://files.couchbase.com/maven2/"
                 )
 
 seq(com.github.siasia.WebPlugin.webSettings :_*)
@@ -28,7 +30,8 @@ libraryDependencies ++= {
     "com.jolbox"               % "bonecp"         % "0.7.1.RELEASE"    % "compile->default",
     "com.h2database"           % "h2"             % "1.3.167",
     "mysql"                    % "mysql-connector-java" % "5.1.18",
-    "org.specs2"        %% "specs2"             % "1.13"           % "test"
+    "org.specs2"        %% "specs2"             % "1.13"           % "test",
+    "datomic-scala" % "datomic-scala_2.10" % "0.1-SNAPSHOT"
   )
 }
 
