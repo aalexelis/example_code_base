@@ -17,7 +17,8 @@ import net.liftweb.common.{Loggable, Full, Empty, Box}
  * Time: 10:35 PM
  * To change this template use File | Settings | File Templates.
  */
-class User extends MegaProtoUser[User] {
+class User  { //extends MegaProtoUser[User] {
+  /*
   def meta = User
 
   override def valUnique(errorMsg: => String)(email: String): List[FieldError] = transaction {
@@ -27,10 +28,12 @@ class User extends MegaProtoUser[User] {
       case x :: _ => List(FieldError(User.email, Text(errorMsg)))
     }
   }
+  */
 
 }
 
-object User extends User with MetaMegaProtoUser[User] with Loggable {
+object User { // extends User with MetaMegaProtoUser[User] with Loggable {
+  /*
   def table = MySchema.user
 
   def idFromString(id: String) = id.toLong
@@ -53,6 +56,7 @@ object User extends User with MetaMegaProtoUser[User] with Loggable {
 
   // comment this line out to require email validations
   override def skipEmailValidation = true
+  */
 
   /*
   override protected implicit def typeToBridge(in: TheUserType): UserBridge =
