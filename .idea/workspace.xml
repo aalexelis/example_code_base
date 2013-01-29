@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" name="Default" comment="" />
+    <ignored path="example_code_base.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359479109798" ignored="false" />
+    <file path="/SBT" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359479068470" ignored="false" />
+    <file path="/fragment.java" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1357980941946" ignored="false" />
+    <file path="/default.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358829041759" ignored="false" />
+    <file path="/MakeLinks.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358099879306" ignored="false" />
+    <file path="/.gitignore" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358140717645" ignored="false" />
+    <file path="$USER_HOME$/.ivy2/cache/net.liftweb/lift-webkit_2.10/jars/lift-webkit_2.10-2.5-SNAPSHOT.jar!/net/liftweb/http/S.class" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358142495916" ignored="false" />
+    <file path="/index.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358689582867" ignored="false" />
+    <file path="/ShowMemoize.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358142685682" ignored="false" />
+    <file path="/TryMemoize.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358159351784" ignored="false" />
+    <file path="/MySchema.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359443953395" ignored="false" />
+    <file path="/User.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359444107131" ignored="false" />
+    <file path="/Boot.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359476919222" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/admin/manualordmailsend.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358214979662" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/ManualOrdMailSend.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358214922539" ignored="false" />
+    <file path="/ManualOrdMailSend.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358214383311" ignored="false" />
+    <file path="/manualordmailsend.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358214864062" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/bootstrap/liftweb/Boot.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358929535515" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/templates-hidden/default.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358829041759" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/comet/CometCart.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358219817977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/ProductSelector.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358219817977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/index.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358695641978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/resources/docs.js" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358236353651" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/index_bak.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358233617843" ignored="false" />
+    <file path="/index_bak.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358233611158" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/templates-hidden/_main_cart.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358234015115" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/templates-hidden/_navbar.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358234542282" ignored="false" />
+    <file path="/docs.js" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358235419725" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/Categories.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358679531812" ignored="false" />
+    <file path="/Categories.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358679531812" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/Page.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358568019090" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/ProductPage.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358688906118" ignored="false" />
+    <file path="/ProductPage.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358577973616" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/product.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358688446353" ignored="false" />
+    <file path="/product.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358688436196" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/resources/docs.css" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358679855835" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/templates-hidden/base.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358695324019" ignored="false" />
+    <file path="/base.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358689119034" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/templates-hidden/modaldialog.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358695680616" ignored="false" />
+    <file path="/modaldialog.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358689631482" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/webapp/checkout.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358929334796" ignored="false" />
+    <file path="/checkout.html" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358929289727" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/Checkout.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358915376147" ignored="false" />
+    <file path="/Checkout.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358909469623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/lib/BootstrapMsg.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358811838082" ignored="false" />
+    <file path="/BootstrapMsg.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358829871847" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/BootstrapMsg.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358829873672" ignored="false" />
+    <file path="$PROJECT_DIR$/../../GefyraSite/newdesign/src/main/scala/org/gefyra/newdesign/snippet/AjaxExample.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358908906896" ignored="false" />
+    <file path="/AjaxExample.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1358908778928" ignored="false" />
+    <file path="/DatomicRecord.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359443799561" ignored="false" />
+    <file path="/Session.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359433872805" ignored="false" />
+    <file path="/HelloWorld.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359445406854" ignored="false" />
+    <file path="/TheLeaderboard.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359474419359" ignored="false" />
+    <file path="/LeaderBoard.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359474976366" ignored="false" />
+    <file path="/Player.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359464492005" ignored="false" />
+    <file path="/a.dummy" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359462111631" ignored="false" />
+    <file path="/Players.scala" changelist="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" time="1359478889796" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="example_code_base" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Players.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Players.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="6" selection-start="1590" selection-end="1590" vertical-scroll-proportion="1.4754099">
+              <folding>
+                <element signature="e#20#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="18" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#27#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaderBoard.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/code/lib/LeaderBoard.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="19" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheLeaderboard.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/code/comet/TheLeaderboard.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="3" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tryDatomic" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/TryMemoize.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/props/default.props" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/lib/datomicrecord/Session.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/lib/datomicrecord/DatomicRecord.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/model/MySchema.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/model/User.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/social-news.edn" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/model/Player.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/lib/LeaderBoard.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/comet/TheLeaderboard.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/model/Players.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="22" />
+    <option name="width" value="1260" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="2" />
+  </component>
+  <component name="ProjectState">
+    <option name="privateKey" value="3082025c020100028181008e6f82a3bf331caa943376c09d7381461d821cbb8344c3ab49238f6363a539fa10706f20567195a74ded76cfbf2deb892583b805cc5b2b0a943fb2ec3b582682b01c67d26522574038e69518be88541a10814e1e569d6e3e6c4ba91faeca6743de4233c3e992840a9565f29e3e17d9c3c65bc3d0cf3e752104561100359f9c190203010001028180672ad3b8212c374e426c084eb97cc91ced10aa19139a821395b5410d9f4634f930610fcc9f7044125b7a6d7d4a1f4ba419dd0f347bf168fa8fa897c34db4aaa716b037fa5ec9d59761fd890b3adc6c2d32ea78e52a6a2fc9c18ecf06e9757832729eb30c2999ee5b3890cdb5fee7fe10f6dc06a861f18b526e98b17e47efc455024100cf6d027fc4ce97930205f0f6fe34ccdcff9aa28e1fd19eea3f94403721c80f1b14e8bc319ff5fc5b238e041e60141b390f88020f982d6d52ba22b72d2f0bb18b024100afca651935559e3903880070885ab2032d5871182e36c75fdc033cce5697801001b75c62d785acbc0000adfa9218f743fda8a73c35b95c4da978f7f27004156b024100cc1fecabac13da9a330d81baaf236acfb94285e1f372283f41de34eb8c75025896550a8e936a51b3a6e3a52df743121f2f279b4f99646b075461c17dd7a45c4d02400ef431ab764d053ba660406152481cd2865dfaa8eaed8002588df1f33f8c7db95edc0140eb4294d21d51f17ada48c3680640fd90f2a505041a418f1e1187576702405a709951b6bea8a811656d9b703acf3ba7c253a036849f78ce093f2aada4319ccc118a027da27bd48cc6e1c8376d391be9ba83431247a61cdfb1a45c46346ce7" />
+    <option name="publicKey" value="308189028181008e6f82a3bf331caa943376c09d7381461d821cbb8344c3ab49238f6363a539fa10706f20567195a74ded76cfbf2deb892583b805cc5b2b0a943fb2ec3b582682b01c67d26522574038e69518be88541a10814e1e569d6e3e6c4ba91faeca6743de4233c3e992840a9565f29e3e17d9c3c65bc3d0cf3e752104561100359f9c190203010001" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheLeaderboard.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liftweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example_code_base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="net.orfjackal.sbt.plugin.settings.SbtConfigurable" />
+    <property name="project.structure.side.proportion" value="0.38817734" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="code.snippet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/scala/code/snippet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Remote.Lift-sbt">
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lift-sbt" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Remote.Lift-sbt" />
+    </list>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06af7bb0-57b2-4ed9-a1d6-b2a494dcefcb" name="Default" comment="" />
+      <created>1357977288681</created>
+      <updated>1357977288681</updated>
+    </task>
+    <task id="LOCAL-00001" summary="the Lift ML example re: the modal dialog">
+      <created>1358100732336</created>
+      <updated>1358100732337</updated>
+    </task>
+    <task id="LOCAL-00002" summary="exclude IntelliJ project files from VCS">
+      <created>1358141005710</created>
+      <updated>1358141005710</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tryMemoize">
+      <created>1358159723788</created>
+      <updated>1358159723788</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit to try MegaProto User">
+      <created>1358527496718</created>
+      <updated>1358527496718</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit to try Datomic db">
+      <created>1359429695927</created>
+      <updated>1359429695927</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit to try Datomic db">
+      <created>1359450838404</created>
+      <updated>1359450838404</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit to meteorLeaderboard">
+      <created>1359451035902</created>
+      <updated>1359451035902</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first commit to meteorLeaderboard">
+      <created>1359479118710</created>
+      <updated>1359479118710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="22" width="1260" height="726" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32343236" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29571664" sideWeight="0.67161715" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit to meteorLeaderboard" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="the Lift ML example re: the modal dialog" />
+    <MESSAGE value="exclude IntelliJ project files from VCS" />
+    <MESSAGE value="tryMemoize" />
+    <MESSAGE value="first commit to try MegaProto User" />
+    <MESSAGE value="first commit to try Datomic db" />
+    <MESSAGE value="first commit to meteorLeaderboard" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.datomic/datomic-free/jars/datomic-free-0.8.3731.jar!/datomic/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="0.5524079" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.datomic/datomic-free/jars/datomic-free-0.8.3731.jar!/datomic/Peer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="37" selection-start="980" selection-end="980" vertical-scroll-proportion="0.35588235" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/datomic-scala/datomic-scala_2.10/srcs/datomic-scala_2.10-0.1-SNAPSHOT-sources.jar!/datomics/TypeStore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="6" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.026548672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="137" selection-end="137" vertical-scroll-proportion="0.15570934" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/datomic-scala/datomic-scala_2.10/srcs/datomic-scala_2.10-0.1-SNAPSHOT-sources.jar!/datomics/Examples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="532" selection-end="543" vertical-scroll-proportion="0.026548672" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/datomic-scala/datomic-scala_2.10/jars/datomic-scala_2.10-0.1-SNAPSHOT.jar!/social-news.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="91" selection-start="0" selection-end="2911" vertical-scroll-proportion="0.025951557" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/net.liftweb/lift-json_2.9.1/srcs/lift-json_2.9.1-2.5-M4-sources.jar!/net/liftweb/json/Extraction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="6" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="49" selection-start="782" selection-end="782" vertical-scroll-proportion="0.5983828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-2.10.1-sources.jar!/com/mongodb/DBCursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="13" selection-start="1842" selection-end="1842" vertical-scroll-proportion="1.2938006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-2.10.1-sources.jar!/com/mongodb/DBObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="774" selection-end="774" vertical-scroll-proportion="0.3515625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#27#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/lib/LeaderBoard.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/comet/TheLeaderboard.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="3" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/net.liftweb/lift-json_2.9.1/srcs/lift-json_2.9.1-2.5-M4-sources.jar!/net/liftweb/json/JsonAST.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="372" column="13" selection-start="12056" selection-end="12056" vertical-scroll-proportion="0.9430894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Players.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="6" selection-start="1590" selection-end="1590" vertical-scroll-proportion="1.4754099">
+          <folding>
+            <element signature="e#20#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Scala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-compiler-2.9.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38817734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38817734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lift 2.5 starter template</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18881118" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SBT: scala:2.9.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38817734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
