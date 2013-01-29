@@ -29,9 +29,13 @@ class LeaderBoard {
 
 }
 
+<<<<<<< HEAD
 case class Player(name: String, score: Int){
 
 }
+=======
+case class Player(name: String, score: Int)
+>>>>>>> brush up
 
 object Player{
   def apply(name:String) = new Player(name, (scala.math.floor(scala.math.random*10)*5).toInt)

@@ -71,6 +71,7 @@ object Players extends Loggable {
   }
 
 }
+<<<<<<< HEAD
 
 /*
 class Players private() extends MongoRecord[Players] with ObjectIdPk[Players] {
@@ -84,3 +85,5 @@ object Players extends Players with MongoMetaRecord[Players] {
 
 }
 */
+=======
+>>>>>>> brush up
