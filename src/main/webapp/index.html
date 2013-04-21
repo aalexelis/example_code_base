@@ -6,26 +6,12 @@
   </head>
   <body class="lift:content_id=main">
     <div id="main" class="lift:surround?with=default;at=content">
-        <h3>Tasks</h3>
-
-        <form data-bind="submit: addTask">
-            Add task: <input data-bind="value: newTaskText" placeholder="What needs to be done?" />
-            <button type="submit">Add</button>
-        </form>
-
-        <ul data-bind="foreach: tasks, visible: tasks().length > 0">
-            <li>
-                <input type="checkbox" data-bind="checked: isDone" />
-                <input data-bind="value: title, disable: isDone" />
-                <a href="#" data-bind="click: $parent.removeTask">Delete</a>
-            </li>
-        </ul>
-
-        You have <b data-bind="text: incompleteTasks().length">&nbsp;</b> incomplete task(s)
-        <span data-bind="visible: incompleteTasks().length == 0"> - it's beer time!</span>
-
-        <textarea name="tasks" data-bind="value: ko.toJSON(tasks)"></textarea>
-        <button data-bind="click: save">Save</button>
+      <h2>Welcome to your project!</h2>
+      <p>
+	<span class="lift:helloWorld.howdy">
+	  Welcome to your Lift app at <span id="time">Time goes here</span>
+	</span>
+      </p>
     </div>
   </body>
 </html>

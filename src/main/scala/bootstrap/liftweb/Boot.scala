@@ -1,7 +1,6 @@
 package bootstrap.liftweb
 
 import net.liftweb._
-import javascript.JavaScriptContext
 import util._
 import Helpers._
 
@@ -13,7 +12,7 @@ import Loc._
 import mapper._
 
 import code.model._
-import code.lib.{TasksRest, DelayedRest}
+import net.liftmodules.JQueryModule
 
 
 /**
@@ -24,8 +23,9 @@ class Boot {
   def boot {
     if (!DB.jndiJdbcConnAvailable_?) {
       val vendor = 
-	      new StandardDBVendor(Props.get("db.driver") openOr "org.h2.Driver",
-			     Props.get("db.url") openOr "jdbc:h2:lift_proto.db;AUTO_SERVER=TRUE",
+	new StandardDBVendor(Props.get("db.driver") openOr "org.h2.Driver",
+			     Props.get("db.url") openOr 
+			     "jdbc:h2:lift_proto.db;AUTO_SERVER=TRUE",
 			     Props.get("db.user"), Props.get("db.password"))
 
       LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
@@ -36,7 +36,7 @@ class Boot {
     // Use Lift's Mapper ORM to populate the database
     // you don't need to use Mapper to use Lift... use
     // any ORM you want
-    Schemifier.schemify(true, Schemifier.infoF _, User, Task)
+    Schemifier.schemify(true, Schemifier.infoF _, User)
 
     // where to search snippet
     LiftRules.addToPackages("code")
@@ -58,6 +58,8 @@ class Boot {
 
     //Init the jQuery module, see http://liftweb.net/jquery for more information.
     LiftRules.jsArtifacts = JQueryArtifacts
+    JQueryModule.InitParam.JQuery=JQueryModule.JQuery172
+    JQueryModule.init()
 
     //Show the spinny image when an Ajax call starts
     LiftRules.ajaxStart =
@@ -75,18 +77,7 @@ class Boot {
 
     // Use HTML5 for rendering
     LiftRules.htmlProperties.default.set((r: Req) =>
-      new Html5Properties(r.userAgent))
-
-    LiftRules.dispatch.append(DelayedRest)
-
-    LiftRules.dispatch.append(TasksRest)
-
-    LiftRules.dataAttributeProcessor.append {
-      case ("wombat", str, nodes, _) =>
-        ("div *+" #> str).apply(nodes)
-    }
-
-    JavaScriptContext.install()
+      new Html5Properties(r.userAgent))    
 
     // Make a transaction span the whole HTTP request
     S.addAround(DB.buildLoanWrapper)
