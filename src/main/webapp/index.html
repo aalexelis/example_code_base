@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
     <title>Home</title>
-  </head>
-  <body class="lift:content_id=main">
-    <div id="main" class="lift:surround?with=default;at=content">
-      <h2>Welcome to your project!</h2>
-      <p>
-	<span class="lift:helloWorld.howdy">
-	  Welcome to your Lift app at <span id="time">Time goes here</span>
-	</span>
-      </p>
+</head>
+<body class="lift:content_id=main">
+<div id="main" class="lift:surround?with=default;at=content">
+
+    <div>
+        <form class="form-inline">
+            <table id="detail" class="table table-striped">
+                <thead><h3>Invoice</h3></thead>
+                <tbody id="order_lines" data-bind="foreach:lines">
+                <tr class="lineitem" data-bind="attr: { id: guid }">
+                    <td>
+                        <input type="text" name="product" size="8" placeholder="Product" class="text-input input-medium"
+                               data-bind="value: product"/>
+                        <input type="text" name="unitprice_su" size="6" placeholder="Unit Price" class="text-input input-small"
+                               data-bind="value: unitprice_su"/>
+                        <input type="text" name="qnty" size="3" placeholder="Qty" class="text-input input-mini"
+                               data-bind="value: qnty"/>
+                    </td>
+                    <td>
+                        <input type="text" name="amount" size="6" placeholder="Amount" class="text-input input-small"
+                               data-bind="value: amount" disabled/>
+                    </td>
+
+                </tr>
+                </tbody>
+                <tr id="totalline">
+                    <td><input id="addLine" type="button" class="btn" data-bind="click: addLine" value="+"></td>
+                    <td id="totamount">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" class="btn" value="Submit" data-bind="click: submit">
+        </form>
     </div>
-  </body>
+
+    <tail><script src="/js/vm-knockoutjs.js" type="text/javascript"></script></tail>
+</div>
+</body>
 </html>
 

@@ -12,7 +12,8 @@ import Loc._
 import mapper._
 
 import code.model._
-import net.liftmodules.JQueryModule
+import net.liftmodules.{FoBo, JQueryModule}
+import code.lib.ServeRest
 
 
 /**
@@ -56,10 +57,19 @@ class Boot {
     // each page, just comment this line out.
     LiftRules.setSiteMapFunc(() => sitemapMutators(sitemap))
 
+
+    LiftRules.dispatch.append(ServeRest)
+
     //Init the jQuery module, see http://liftweb.net/jquery for more information.
     LiftRules.jsArtifacts = JQueryArtifacts
-    JQueryModule.InitParam.JQuery=JQueryModule.JQuery172
+    JQueryModule.InitParam.JQuery=JQueryModule.JQuery182
     JQueryModule.init()
+    //We skip the FoBo built in JQuery in favor for the FoBo included lift-jquery-module
+    //FoBo.InitParam.JQuery=FoBo.JQuery172
+    FoBo.InitParam.ToolKit=FoBo.Bootstrap230
+    FoBo.InitParam.ToolKit=FoBo.Knockout221
+    FoBo.InitParam.ToolKit=FoBo.PrettifyJun2011
+    FoBo.init()
 
     //Show the spinny image when an Ajax call starts
     LiftRules.ajaxStart =
