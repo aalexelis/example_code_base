@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/default-702ee2.iml" filepath="$PROJECT_DIR$/.idea_modules/default-702ee2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/default-702ee2-build.iml" filepath="$PROJECT_DIR$/.idea_modules/default-702ee2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/Lift 2.5 starter template.iml" filepath="$PROJECT_DIR$/.idea_modules/Lift 2.5 starter template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/Lift 2.5 starter template-build.iml" filepath="$PROJECT_DIR$/.idea_modules/Lift 2.5 starter template-build.iml" />
     </modules>
   </component>
 </project>

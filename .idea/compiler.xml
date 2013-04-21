@@ -20,8 +20,8 @@
     </annotationProcessing>
   </component>
   <component name="SbtSettings">
-    <option name="sbtLauncherJarPath" value="$PROJECT_DIR$/sbt-launch-0.12.jar" />
-    <option name="sbtLauncherVmParameters" value="-Xmx512M -XX:MaxPermSize=256M -XX:+CMSClassUnloadingEnabled -noverify" />
+    <option name="sbtLauncherJarPath" value="$PROJECT_DIR$/sbt-launch-0.12.1.jar" />
+    <option name="sbtLauncherVmParameters" value="-Xmx512M -XX:MaxPermSize=256M -XX:+CMSClassUnloadingEnabled -noverify -javaagent://Users/andreas/.jrebel/jrebel.jar -jar -Drebel.lift_plugin=true" />
     <option name="useApplicationSettings" value="false" />
   </component>
 </project>
